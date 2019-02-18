@@ -4,8 +4,6 @@ $open-sans: 'Open Sans', sans-serif;
 
 * { font-family: $open-sans; }
 
-:host ::ng-deep .vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
+:host ::ng-deep .extrabold {
+  font-weight: 800;
 }

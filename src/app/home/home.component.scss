@@ -10,12 +10,12 @@ $break-lg: 1200px;
   color: #333;
   max-width: 90%;
 
-  .headline {
-    font-weight: lighter;
+  @media screen and (max-width: $break-sm) {
+    margin: 75px auto;
   }
 
-  .ultrabold {
-    font-weight: 700;
+  .headline {
+    font-weight: lighter;
   }
 
   .subline {
@@ -23,7 +23,7 @@ $break-lg: 1200px;
   }
 
   .bigger-text {
-    font-size: 110%;
+    font-size: 105%;
   }
 
   .uc-text {
@@ -42,6 +42,7 @@ $break-lg: 1200px;
 
     @media screen and (max-width: $break-sm) {
       max-width: 65%;
+      margin-top: 40px;
     }
   }
 }
