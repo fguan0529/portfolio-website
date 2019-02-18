@@ -1,0 +1,19 @@
+.navbar {
+  .nav-item {
+    padding: 20px;
+
+    &:hover {
+      text-decoration: underline;
+      font-weight: bolder;
+      font-size: 110%;
+    }
+  }
+
+  .logo {
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+}

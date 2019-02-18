@@ -1,0 +1,47 @@
+$dark-grey: #adacac;
+
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1200px;
+
+.home-section {
+
+  margin: 110px auto;
+  color: #333;
+  max-width: 90%;
+
+  .headline {
+    font-weight: lighter;
+  }
+
+  .ultrabold {
+    font-weight: 700;
+  }
+
+  .subline {
+    font-weight: normal;
+  }
+
+  .bigger-text {
+    font-size: 110%;
+  }
+
+  .uc-text {
+    font-weight: bold;
+    color: #00386c;
+  }
+
+  .irvine-text {
+    font-weight: bold;
+    color: #f6aa0d;
+  }
+
+  .header-img {
+    max-width: 75%;
+    box-shadow: 3px 3px 1px $dark-grey;
+
+    @media screen and (max-width: $break-sm) {
+      max-width: 65%;
+    }
+  }
+}
