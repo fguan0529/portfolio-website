@@ -1,0 +1,49 @@
+.contacts-section {
+  .contact-link-icon {
+    max-width: 35%;
+  }
+
+  .contact-link-row {
+    max-width: 1000px;
+  }
+
+  a.contact-link {
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+
+    &:hover {
+      .contact-link-icon, .contact-link-label {
+        color: #333;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .contact-link-label {
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    font-size: 1.5em;
+
+    textarea{
+      border: 2px solid black;
+    }
+
+    input {
+      height: calc(1em + 15px);
+      border: none;
+      border-bottom: 2px solid black;
+    }
+
+    input, textarea {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 1em;
+    }
+  }
+}

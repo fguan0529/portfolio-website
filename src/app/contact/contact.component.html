@@ -1,0 +1,64 @@
+<a class="anchor" id="contact-section"></a>
+
+<section class="contacts-section py-5">
+
+  <div class="container">
+    <h1 class="extrabold text-center py-3 mb-3">Thanks for dropping by.</h1>
+
+    <div class="row contact-link-row text-center py-4 mx-auto">
+      <div class="col-md-4">
+        <a class="contact-link" routerLink="">
+          <img class="contact-link-icon rounded-circle" src={{contactLinkImgSrc1}}>
+          <div class="contact-link-label py-3 mb-sm-4">{{contactLinkLabel1}}</div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a class="contact-link" href="https://github.com/fguan0529" target="_blank">
+          <img class="contact-link-icon rounded-circle" src={{contactLinkImgSrc2}}>
+          <div class="contact-link-label py-3 mb-sm-3">{{contactLinkLabel2}}</div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a class="contact-link" href="mailto:guan.fanny@gmail.com" target="_blank">
+          <span class="sr-only">Email: guan.fanny@gmail.com</span>
+          <img class="contact-link-icon rounded-circle" src={{contactLinkImgSrc3}}>
+          <div class="contact-link-label py-3">{{contactLinkLabel3}}</div>
+        </a>
+      </div>
+    </div>
+
+    <h2 class="text-center pb-3">Leave a message...</h2>
+    <div class="contact-form mx-auto form-inline">
+
+
+      <div class="row">
+        <p class="m-0 p-2">Email:</p>
+        <div class="form-group">
+          <label for="email" class="sr-only">Name</label>
+          <input type="email" class="form-control required" id="email" placeholder="name@example.com">
+        </div>
+      </div>
+
+      <div class="row p-2">
+        <p class="m-0 pr-2">Hello Fanny, my name is</p>
+        <div class="form-group">
+          <label for="name" class="sr-only">Name</label>
+          <input type="text" class="form-control required" id="name" placeholder="New Friend">
+        </div>
+        <p class="m-0 px-2">.</p>
+      </div>
+
+      <div class="row p-2 w-100">
+        <div class="form-group w-100">
+          <label for="message" class="sr-only">Message</label>
+          <textarea class="form-control m-0 w-100" id="message" rows="4" placeholder="I am writing to you..."></textarea>
+        </div>
+      </div>
+
+      <div class="row p-2 w-100">
+        <div class="float-right"> <button class="btn btn-outline-dark" type="submit">Submit message</button></div>
+      </div>
+    </div>
+  </div>
+
+</section>

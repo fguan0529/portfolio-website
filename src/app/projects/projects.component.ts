@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  project1Name = 'Investment Bank Microsite';
+  project2Name = 'ClimateLens';
+  project3Name = 'Portfolio Website';
+  project4Name = 'Case Studies';
+
   constructor() { }
 
   ngOnInit() {

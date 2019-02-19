@@ -1,27 +1,40 @@
 .projects-section {
   background: linear-gradient(1.35turn, #b4f2f4, #f4c3b4);
 
-  .project1-thumbnail {
-    background: url(../../assets/img/photo.jpg) no-repeat center;
-    background-size: 100% auto;
+  .projects-container {
+    max-width: 1900px;
+  }
+
+  .project-thumbnail {
     height: 300px;
   }
 
-  .project2-thumbnail {
+  .project1 {
     background: url(../../assets/img/photo.jpg) no-repeat center;
     background-size: 100% auto;
-    height: 300px;
+    &:hover {
+      background-size: 110% auto;
+    }
   }
-
-  .project3-thumbnail {
+  .project2 {
     background: url(../../assets/img/photo.jpg) no-repeat center;
     background-size: 100% auto;
-    height: 300px;
+    &:hover {
+      background-size: 110% auto;
+    }
   }
-
-  .project4-thumbnail {
+  .project3 {
     background: url(../../assets/img/photo.jpg) no-repeat center;
     background-size: 100% auto;
-    height: 300px;
+    &:hover {
+      background-size: 110% auto;
+    }
+  }
+  .project4 {
+    background: url(../../assets/img/photo.jpg) no-repeat center;
+    background-size: 100% auto;
+    &:hover {
+      background-size: 110% auto;
+    }
   }
 }

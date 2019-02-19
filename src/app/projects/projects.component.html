@@ -1,29 +1,37 @@
-<section class="projects-section py-5" id="projects-section">
+<a class="anchor" id="projects-section"></a>
+
+<section class="projects-section py-5">
   <h1 class="extrabold py-3 mb-3 text-center">Projects</h1>
 
-  <div class="row">
-    <div class="col-md-6 px-0">
-      <a routerLink="/">
-        <div class="project1-thumbnail"></div>
-      </a>
+  <div class="container projects-container">
+    <div class="row">
+      <div class="col-md-6 px-0">
+        <a routerLink="/">
+          <span class="sr-only">{{project1Name}}</span>
+          <div class="project-thumbnail project1"></div>
+        </a>
+      </div>
+      <div class="col-md-6 px-0">
+        <a routerLink="/">
+          <span class="sr-only">{{project2Name}}</span>
+          <div class="project-thumbnail project2"></div>
+        </a>
+      </div>
     </div>
-    <div class="col-md-6 px-0">
-      <a routerLink="/">
-        <div class="project2-thumbnail"></div>
-      </a>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-md-6 px-0">
-      <a routerLink="/">
-        <div class="project3-thumbnail"></div>
-      </a>
-    </div>
-    <div class="col-md-6 px-0">
-      <a routerLink="/">
-        <div class="project4-thumbnail"></div>
-      </a>
+    <div class="row">
+      <div class="col-md-6 px-0">
+        <a routerLink="/">
+          <span class="sr-only">{{project3Name}}</span>
+          <div class="project-thumbnail project3"></div>
+        </a>
+      </div>
+      <div class="col-md-6 px-0">
+        <a routerLink="/">
+          <span class="sr-only">{{project4Name}}</span>
+          <div class="project-thumbnail project4"></div>
+        </a>
+      </div>
     </div>
   </div>
 </section>
