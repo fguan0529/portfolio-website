@@ -2,11 +2,9 @@
   .contact-link-icon {
     max-width: 35%;
   }
-
   .contact-link-row {
     max-width: 1000px;
   }
-
   a.contact-link {
     color: rgba(0,0,0,.5);
     text-decoration: none;
@@ -20,11 +18,14 @@
       }
     }
   }
-
   .contact-link-label {
     font-size: large;
     font-weight: 600;
   }
+}
+
+.contacts-section-2 {
+  background: radial-gradient(white, #e7dce8);
 
   .contact-form {
     max-width: 600px;
@@ -44,6 +45,7 @@
       border-radius: 0;
       box-shadow: none;
       font-size: 1em;
+      background: transparent;
     }
   }
 }
