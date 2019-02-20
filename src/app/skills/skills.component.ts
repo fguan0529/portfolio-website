@@ -8,13 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsComponent implements OnInit {
 
   skillLabel1 = 'User Research, Interviews & Testing';
-  skillIconSrc1 = '../../assets/img/photo.jpg';
+  skillIconSrc1 = '../../assets/img/userresearch.png';
 
   skillLabel2 = 'Design Mockups & Wireframes';
-  skillIconSrc2 = '../../assets/img/photo.jpg';
+  skillIconSrc2 = '../../assets/img/mockup.png';
 
   skillLabel3 = 'High Fidelity Prototypes';
-  skillIconSrc3 = '../../assets/img/photo.jpg';
+  skillIconSrc3 = '../../assets/img/prototype.png';
+
+  skillLabel4 = 'Technical';
+  skillIconSrc4 = '../../assets/img/code.png';
 
   codingSkills: string[] = [
     'HTML',

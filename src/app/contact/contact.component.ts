@@ -8,13 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class ContactComponent implements OnInit {
 
   contactLinkLabel1 = 'Download My Resume';
-  contactLinkImgSrc1 = '../../assets/img/photo.jpg';
+  contactLinkImgSrc1 = '../../assets/img/pdf.png';
+  formatLabel = '[ as a pdf ]';
 
   contactLinkLabel2 = 'My Github';
-  contactLinkImgSrc2 = '../../assets/img/photo.jpg';
+  contactLinkImgSrc2 = '../../assets/img/git.png';
+  gitLabel = '[ fguan0529 ]';
 
   contactLinkLabel3 = 'Copy Email to Clipboard';
-  contactLinkImgSrc3 = '../../assets/img/photo.jpg';
+  emailLabel = '[ guan.fanny@gmail.com ]';
+  contactLinkImgSrc3 = '../../assets/img/clipboard.png';
 
 
   constructor() { }
