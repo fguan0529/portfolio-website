@@ -6,20 +6,20 @@
     <div class="row contact-link-row text-center pt-5 mx-auto">
       <div class="col-md-4">
         <a class="contact-link" routerLink="">
-          <img class="contact-link-icon" src={{contactLinkImgSrc1}}>
+          <img class="contact-link-icon" [src]="contactLinkImgSrc1">
           <div class="contact-link-label py-3 mb-sm-4">{{contactLinkLabel1}}<br><h5>{{formatLabel}}</h5></div>
         </a>
       </div>
       <div class="col-md-4">
         <a class="contact-link" href="https://github.com/fguan0529" target="_blank">
-          <img class="contact-link-icon" src={{contactLinkImgSrc2}}>
+          <img class="contact-link-icon" [src]="contactLinkImgSrc2">
           <div class="contact-link-label py-3 mb-sm-3">{{contactLinkLabel2}}<br><h5>{{gitLabel}}</h5></div>
         </a>
       </div>
       <div class="col-md-4">
         <a class="contact-link" href="" target="_blank">
           <span class="sr-only">Copy guan.fanny@gmail.com to clipboard</span>
-          <img class="contact-link-icon" src={{contactLinkImgSrc3}}>
+          <img class="contact-link-icon" [src]="contactLinkImgSrc3">
           <div class="contact-link-label py-3">{{contactLinkLabel3}}<br><h5>{{emailLabel}}</h5></div>
         </a>
       </div>
