@@ -12,7 +12,7 @@ $break-lg: 1200px;
     text-transform: uppercase;
     font-weight: bold;
 
-    &:hover {
+    a.nav-link:hover {
       text-decoration: underline;
       font-weight: bolder;
       font-size: 110%;
