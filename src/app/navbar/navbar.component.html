@@ -1,19 +1,21 @@
 <nav class="navbar navbar-light bg-white navbar-expand-md sticky-top">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img class="logo" src="../../assets/img/logo.png" height="65" alt="Home">
+      <img class="logo" [src]="logoImgSrc" height="65px" alt="Home">
     </a>
+    <div class="px-2">
+      <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarMenu">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link text-uppercase font-weight-bold" href="#projects-section">Projects</a>
-        <a class="nav-item nav-link text-uppercase font-weight-bold" href="#resume-section">Resume</a>
-        <a class="nav-item nav-link text-uppercase font-weight-bold" href="#contact-section">Contact</a>
-      </div>
+    <div class="collapse navbar-collapse"
+         [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-auto"><a class="nav-link p-0" href="#projects-section" (click)="toggleNavbar()">Projects</a></li>
+        <li class="nav-item mx-auto"><a class="nav-link p-0" href="#resume-section" (click)="toggleNavbar()">Resume</a></li>
+        <li class="nav-item mx-auto"><a class="nav-link p-0" href="#contact-section" (click)="toggleNavbar()">Contact</a></li>
+      </ul>
     </div>
   </div>
 </nav>

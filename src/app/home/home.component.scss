@@ -6,7 +6,7 @@ $break-lg: 1200px;
 
 .home-section {
 
-  margin: 110px auto;
+  margin: 150px auto;
   color: #333;
   max-width: 90%;
 
@@ -14,12 +14,18 @@ $break-lg: 1200px;
     margin: 75px auto;
   }
 
-  .headline {
-    font-weight: lighter;
-  }
+  .header-img {
+    max-width: 300px;
+    box-shadow: 3px 3px 1px $dark-grey;
 
-  .subline {
-    font-weight: normal;
+    @media screen and (max-width: $break-md) {
+      max-width: 85%;
+    }
+
+    @media screen and (max-width: $break-sm) {
+      max-width: 50%;
+      margin-bottom: 40px;
+    }
   }
 
   .bigger-text {
@@ -36,13 +42,11 @@ $break-lg: 1200px;
     color: #f6aa0d;
   }
 
-  .header-img {
-    max-width: 75%;
-    box-shadow: 3px 3px 1px $dark-grey;
-
-    @media screen and (max-width: $break-sm) {
-      max-width: 65%;
-      margin-top: 40px;
+  a.action-button {
+    &:hover {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
     }
   }
 }
