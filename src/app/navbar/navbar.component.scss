@@ -6,11 +6,6 @@ $break-lg: 1200px;
   padding: 0;
   box-shadow: 1px 1px 1px rgba(173, 172, 172, 0.75);
 
-  @media screen and (max-width: $break-sm) {
-    .logo {
-      height: 50px;
-    }
-  }
 
   .nav-item {
     padding: 20px;
