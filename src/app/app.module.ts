@@ -22,7 +22,7 @@ import { CaseStudiesComponent } from './case-studies/case-studies.component';
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent,git
+    FooterComponent,
     ClimatelensComponent,
     InvestmentMicrositeComponent,
     PortfolioWebsiteDetailsComponent,
