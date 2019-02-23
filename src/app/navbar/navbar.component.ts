@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   logoImgSrc = './assets/img/logo.png';
-
+  resumeLinkSrc = './assets/GUAN_Fanny_Resume_2019.pdf';
   navbarOpen = false;
+
+  getResumeLink(): string {
+    return this.resumeLinkSrc;
+  }
 
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;

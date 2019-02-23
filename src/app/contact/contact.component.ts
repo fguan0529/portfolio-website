@@ -1,14 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
+  providers: [NavbarComponent]
 })
 export class ContactComponent implements OnInit {
 
   contactLinkLabel1 = 'Download My Resume';
-  contactLinkImgSrc1 = './assets/img/pdf.png';
+  contactLinkImgSrc1 = './assets/img/export.png';
   formatLabel = '[ as a pdf ]';
 
   contactLinkLabel2 = 'My Github';
@@ -17,10 +19,13 @@ export class ContactComponent implements OnInit {
 
   contactLinkLabel3 = 'Copy Email to Clipboard';
   emailLabel = '[ guan.fanny@gmail.com ]';
-  contactLinkImgSrc3 = './assets/img/clipboard.png';
+  contactLinkImgSrc3 = './assets/img/gmail.png';
 
+  resumeLinkSrc = '';
 
-  constructor() { }
+  constructor(private nav: NavbarComponent) {
+    this.resumeLinkSrc = nav.resumeLinkSrc;
+  }
 
   ngOnInit() {
   }

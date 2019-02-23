@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light bg-white navbar-expand-md sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img class="logo" [src]="logoImgSrc" height="65px" alt="Home">
     </a>
     <div class="px-2">
@@ -13,7 +13,7 @@
          [ngClass]="{ 'show': navbarOpen }">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-auto"><a class="nav-link p-0" href="#projects-section" (click)="closeNavbar()">Projects</a></li>
-        <li class="nav-item mx-auto"><a class="nav-link p-0" href="/" (click)="closeNavbar()">Resume</a></li>
+        <li class="nav-item mx-auto"><a class="nav-link p-0" [href]="resumeLinkSrc" target="_blank" (click)="closeNavbar()">Resume</a></li>
         <li class="nav-item mx-auto"><a class="nav-link p-0" href="#contact-section" (click)="closeNavbar()">Contact</a></li>
       </ul>
     </div>

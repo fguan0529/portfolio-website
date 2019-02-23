@@ -1,8 +1,7 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
 $dark-grey: #adacac;
 
-$break-sm: 768px;
-$break-md: 992px;
-$break-lg: 1200px;
 
 .home-section {
 
@@ -10,7 +9,7 @@ $break-lg: 1200px;
   color: #333;
   max-width: 90%;
 
-  @media screen and (max-width: $break-sm) {
+  @media screen and (max-width: breakpoint-max(sm)) {
     margin: 75px auto;
   }
 
@@ -18,11 +17,11 @@ $break-lg: 1200px;
     max-width: 300px;
     box-shadow: 3px 3px 1px $dark-grey;
 
-    @media screen and (max-width: $break-md) {
+    @media screen and (max-width: breakpoint-max(md)) {
       max-width: 85%;
     }
 
-    @media screen and (max-width: $break-sm) {
+    @media screen and (max-width: breakpoint-max(sm)) {
       max-width: 50%;
       margin-bottom: 40px;
     }

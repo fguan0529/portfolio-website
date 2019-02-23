@@ -4,13 +4,13 @@
   <div class="container projects-container">
     <div class="row">
       <div class="col-lg-6 px-0">
-        <a routerLink="/">
+        <a [routerLink]="project1Link">
           <span class="sr-only">{{project1Name}}</span>
           <div class="project-thumbnail project1"></div>
         </a>
       </div>
       <div class="col-lg-6 px-0">
-        <a routerLink="/">
+        <a [routerLink]="project2Link">
           <span class="sr-only">{{project2Name}}</span>
           <div class="project-thumbnail project2"></div>
         </a>
@@ -19,13 +19,13 @@
 
     <div class="row">
       <div class="col-lg-6 px-0">
-        <a routerLink="/">
+        <a [routerLink]="project3Link">
           <span class="sr-only">{{project3Name}}</span>
           <div class="project-thumbnail project3"></div>
         </a>
       </div>
       <div class="col-lg-6 px-0">
-        <a routerLink="/">
+        <a [routerLink]="project4Link">
           <span class="sr-only">{{project4Name}}</span>
           <div class="project-thumbnail project4"></div>
         </a>

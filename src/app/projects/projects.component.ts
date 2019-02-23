@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  project1Name = 'Investment Bank Microsite';
-  project2Name = 'ClimateLens';
+  project1Link = '/climatelens';
+  project1Name = 'ClimateLens';
+
+  project2Link = '/investment-microsite';
+  project2Name = 'Investment Bank Microsite';
+
+  project3Link = '/portfolio-website-project';
   project3Name = 'Portfolio Website';
+
+  project4Link = '/case-studies';
   project4Name = 'Case Studies';
 
   constructor() { }

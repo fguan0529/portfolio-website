@@ -9,6 +9,10 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { ClimatelensComponent } from './climatelens/climatelens.component';
+import { InvestmentMicrositeComponent } from './investment-microsite/investment-microsite.component';
+import { PortfolioWebsiteDetailsComponent } from './portfolio-website-details/portfolio-website-details.component';
+import { CaseStudiesComponent } from './case-studies/case-studies.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,git
+    ClimatelensComponent,
+    InvestmentMicrositeComponent,
+    PortfolioWebsiteDetailsComponent,
+    CaseStudiesComponent
   ],
   imports: [
     BrowserModule,

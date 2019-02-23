@@ -1,6 +1,4 @@
-$break-sm: 768px;
-$break-md: 992px;
-$break-lg: 1200px;
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
 
 .projects-section {
   background: linear-gradient(0.65turn, #b4f2f4, #f4c3b4);
@@ -11,10 +9,10 @@ $break-lg: 1200px;
 
   .project-thumbnail {
     height: 400px;
-    @media screen and (max-width: $break-md) {
+    @media screen and (max-width: breakpoint-max(md)) {
       height: 300px;
     }
-    @media screen and (max-width: $break-sm) {
+    @media screen and (max-width: breakpoint-max(sm)) {
       height: 250px;
     }
   }
