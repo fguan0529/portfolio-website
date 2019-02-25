@@ -1,9 +1,11 @@
+@import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
 $open-sans: 'Open Sans', sans-serif;
-$break-sm: 768px;
-$break-md: 992px;
-$break-lg: 1200px;
+$dark-grey: #adacac;
+$light-alpha-pink: rgba(231, 220, 232, 0.66);
+$climatelens-img: '../../assets/img/climatelens.png';
+
 
 * { font-family: $open-sans; }
 

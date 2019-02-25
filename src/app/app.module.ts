@@ -26,7 +26,7 @@ import { CaseStudiesComponent } from './case-studies/case-studies.component';
     ClimatelensComponent,
     InvestmentMicrositeComponent,
     PortfolioWebsiteDetailsComponent,
-    CaseStudiesComponent
+    CaseStudiesComponent,
   ],
   imports: [
     BrowserModule,

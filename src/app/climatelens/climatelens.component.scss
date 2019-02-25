@@ -1,0 +1,26 @@
+@import "../../styles.scss";
+
+.project-header-section {
+  .project-thumbnail {
+    height: 300px;
+    @media screen and (max-width: breakpoint-max(md)) {
+      height: 200px;
+    }
+    background: url($climatelens-img) no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .project-description {
+    padding: 0 80px;
+    @media screen and (max-width: breakpoint-max(md)) {
+      padding: 80px 50px;
+    }
+    @media screen and (max-width: breakpoint-max(sm)) {
+      padding: 70px 10px;
+    }
+  }
+}
+
+.heading-divider {
+  background: linear-gradient(1.25turn, $light-alpha-pink, white);
+}

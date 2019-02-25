@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from '../project';
+import { PROJECTS } from '../project-list';
 
 @Component({
   selector: 'app-projects',
@@ -7,17 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  project1Link = '/climatelens';
-  project1Name = 'ClimateLens';
-
-  project2Link = '/investment-microsite';
-  project2Name = 'Investment Bank Microsite';
-
-  project3Link = '/portfolio-website-project';
-  project3Name = 'Portfolio Website';
-
-  project4Link = '/case-studies';
-  project4Name = 'Case Studies';
+  climateLens: Project = PROJECTS[0];
+  investmentMicrosite: Project = PROJECTS[1];
+  portfolioWebsite: Project = PROJECTS[2];
+  caseStudies: Project = PROJECTS[3];
 
   constructor() { }
 

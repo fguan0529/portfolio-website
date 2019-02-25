@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from '../project';
+import { PROJECTS } from '../project-list';
 
 @Component({
   selector: 'app-climatelens',
@@ -7,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClimatelensComponent implements OnInit {
 
-  constructor() { }
+  climateLens: Project = PROJECTS[0];
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

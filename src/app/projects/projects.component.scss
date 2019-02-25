@@ -1,4 +1,4 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "../../styles.scss";
 
 .projects-section {
   background: linear-gradient(0.65turn, #b4f2f4, #f4c3b4);
@@ -18,7 +18,7 @@
   }
 
   .project1 {
-    background: url(../../assets/img/climatelens.png) no-repeat center;
+    background: url($climatelens-img) no-repeat center;
     background-size: 100% auto;
     &:hover {
       background-size: 110% auto;
