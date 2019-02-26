@@ -19,30 +19,30 @@
 
   .project1 {
     background: url($climatelens-img) no-repeat center;
-    background-size: 100% auto;
+    background-size: cover;
     &:hover {
-      background-size: 110% auto;
+      background-size: 110%;
     }
   }
   .project2 {
     background: url(../../assets/img/photo.jpg) no-repeat center;
-    background-size: 100% auto;
+    background-size: cover;
     &:hover {
-      background-size: 110% auto;
+      background-size: 110%;
     }
   }
   .project3 {
     background: url(../../assets/img/photo.jpg) no-repeat center;
-    background-size: 100% auto;
+    background-size: cover;
     &:hover {
-      background-size: 110% auto;
+      background-size: 110%;
     }
   }
   .project4 {
     background: url(../../assets/img/photo.jpg) no-repeat center;
-    background-size: 100% auto;
+    background-size: cover;
     &:hover {
-      background-size: 110% auto;
+      background-size: 110%;
     }
   }
 }
