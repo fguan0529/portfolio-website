@@ -14,6 +14,10 @@ export class ProjectsComponent implements OnInit {
   portfolioWebsite: Project = PROJECTS[2];
   caseStudies: Project = PROJECTS[3];
 
+  resetView(): void{
+    window.scrollTo(0, 0);
+  }
+
   constructor() { }
 
   ngOnInit() {
