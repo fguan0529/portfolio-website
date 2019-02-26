@@ -11,10 +11,6 @@ export class NavbarComponent implements OnInit {
   resumeLinkSrc = './assets/GUAN_Fanny_Resume_2019.pdf';
   navbarOpen = false;
 
-  getResumeLink(): string {
-    return this.resumeLinkSrc;
-  }
-
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;
   }
