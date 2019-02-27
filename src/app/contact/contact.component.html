@@ -1,24 +1,26 @@
 <section class="contacts-section py-5">
 
   <div class="container">
-    <h1 class="extrabold text-center py-3 mb-3">Thanks for dropping by.</h1>
+    <h1 class="extrabold text-center py-3">Thanks for dropping by.</h1>
 
 
     <div class="row contact-link-row text-center pt-5 mx-auto">
-      <div class="col-md-4 pb-sm-5">
-        <a class="contact-link" (click)="copyEmail()" target="_blank">
+      <div class="col-md-4 py-4 py-md-0">
+        <a class="contact-link pt-4" (click)="copyEmail()"
+           placement="top" ngbTooltip="Email copied to clipboard!"
+           triggers="click"  [autoClose]="'outside'">
           <span class="sr-only">Copy guan.fanny@gmail.com to clipboard</span>
           <img class="contact-link-icon" [src]="contactLinkImgSrc3">
           <div class="contact-link-label py-3">{{contactLinkLabel3}}<br><p class="contact-link-label">{{emailLabel}}</p></div>
         </a>
       </div>
-      <div class="col-md-4 mb-sm-5">
+      <div class="col-md-4 py-4 py-md-0">
         <a class="contact-link" [href]="resumeLinkSrc" target="_blank">
           <img class="contact-link-icon" [src]="contactLinkImgSrc1">
           <div class="contact-link-label py-3 mb-sm-4">{{contactLinkLabel1}}<br><p class="contact-link-label">{{formatLabel}}</p></div>
         </a>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 py-4 py-md-0">
         <a class="contact-link" href="https://github.com/fguan0529" target="_blank">
           <img class="contact-link-icon" [src]="contactLinkImgSrc2">
           <div class="contact-link-label py-3 mb-sm-3">{{contactLinkLabel2}}<br><p class="contact-link-label">{{gitLabel}}</p></div>

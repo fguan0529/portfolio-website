@@ -24,10 +24,9 @@ export class ContactComponent implements OnInit {
   resumeLinkSrc = '';
 
   copyEmail() {
-    let emailBox = document.createElement('textarea');
+    const emailBox = document.createElement('textarea');
     emailBox.value = 'guan.fanny@gmail.com';
     document.body.appendChild(emailBox);
-    emailBox.focus();
     emailBox.select();
     document.execCommand('copy');
     document.body.removeChild(emailBox);
