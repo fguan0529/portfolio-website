@@ -1,26 +1,98 @@
 @import "../../styles.scss";
 
 .project-header-section {
-  .project-thumbnail {
-    height: 300px;
+  .project-image {
+    height: 600px;
     @media screen and (max-width: breakpoint-max(md)) {
-      height: 200px;
+      height: 300px;
     }
-    background: url($climatelens-img) no-repeat center;
+    background: url($climatelens-fullsize) no-repeat center;
     background-size: cover;
-  }
-
-  .project-description {
-    padding: 0 80px;
-    @media screen and (max-width: breakpoint-max(md)) {
-      padding: 80px 50px;
-    }
-    @media screen and (max-width: breakpoint-max(sm)) {
-      padding: 70px 10px;
-    }
   }
 }
 
-.heading-divider {
-  background: linear-gradient(1.25turn, $light-alpha-pink, white);
+.project-details {
+  .project-details-container{
+    max-width: 1000px;
+  }
+  .section-header {
+    font-weight: bold;
+    color: $dark-lavender;
+  }
+  p {
+    font-size: large;
+    padding: 10px;
+  }
+  .project-title {
+    font-weight: bold;
+    color: $lavender;
+  }
+
+  .img-logo {
+    max-width: 30%;
+    @media screen and (max-width: breakpoint-max(sm)) {
+      max-width: 50%;
+      padding: 10px;
+    }
+  }
+
+  .img-large {
+    padding:0 20px 20px 20px;
+    @media screen and (max-width: breakpoint-max(sm)) {
+      padding: 5px;
+    }
+  }
+
+  .img-shadow {
+    border-top: $grey-shadow 1px solid;
+    display: block;
+    margin: 0px auto -2px auto;
+    height: 1px;
+    max-width: 75%;
+    box-shadow: 0 0 5px 3px $grey-shadow;
+    @media screen and (max-width: breakpoint-min(sm)) {
+      max-width: 50%;
+    }
+  }
+
+  .img-compana {
+    max-width: 75%;
+    @media screen and (max-width: breakpoint-min(sm)) {
+      max-width: 50%;
+    }
+  }
+
+  .mobile-show {
+    display: none;
+    @media screen and (max-width: breakpoint-min(sm)) {
+      display: block;
+    }
+  }
+  
+  .mobile-hide {
+    display: block;
+    @media screen and (max-width: breakpoint-min(sm)) {
+      display: none;
+    }
+  }
+
+  a.invision-link {
+    text-decoration: none;
+    font-weight: bold;
+
+    .link-icon {
+      width: 125px;
+      padding: 5px;
+    }
+
+    &:hover {
+      .link-icon, .link-label {
+        color: #333;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      cursor: pointer;
+    }
+  }
 }

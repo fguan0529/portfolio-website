@@ -2,9 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
 $open-sans: 'Open Sans', sans-serif;
-$dark-grey: #adacac;
+$misty-rose: #f4c3b4;
+$misty-cyan: #ccf4ea;
+$vivid-cyan: #399fbc;
+$grey-shadow: #adacac;
+$dark-lavender: #4f474e;
+$lavender: #7f727d;
 $light-alpha-pink: rgba(231, 220, 232, 0.66);
-$climatelens-img: '../../assets/img/climatelens.png';
+
+$climatelens-thumbnail: '../../assets/img/climatelens_thumbnail.png';
+$climatelens-fullsize: '../../assets/img/climatelens_fullsize.png';
 
 
 * { font-family: $open-sans; }
@@ -18,9 +25,40 @@ html {
   font-weight: 800;
 }
 
+a, a p, a div{
+  color: $vivid-cyan;
+
+}
+
 a.anchor {
   display: block;
   position: relative;
   top: -75px;
   visibility: hidden;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bigger-text {
+  font-size: 105%;
+}
+
+.lavender-text {
+  color: $lavender;
+}
+
+.divider {
+  background-color: $light-alpha-pink;
+  display: block;
+  margin: 50px auto;
+  height: 1px;
+  width: 250px;
+  box-shadow: 0 1px 1px $grey-shadow;
+  @media screen and (max-width: breakpoint-max(sm)) {
+    width: 150px;
+  }
 }

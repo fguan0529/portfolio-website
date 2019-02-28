@@ -1,26 +1,223 @@
 <section class="project-header-section">
-  <div class="row m-0">
-
-    <div class="col-lg-7 order-lg-last project-thumbnail">
-      <span class="sr-only">{{climateLens.name}}</span>
-    </div>
-
-    <div class="col-lg-5 text-center my-auto">
-      <h5 class="project-description">{{climateLens.description}}</h5>
-    </div>
-
+  <div class="project-image">
+    <span class="sr-only">{{climateLens.name}}</span>
   </div>
 </section>
 
-<section class="heading-divider py-5">
-    <h1 class="text-center font-weight-bold">Planning & Research</h1>
-</section>
+<section class="project-details">
+  <div class="container project-details-container">
 
-<section>
-  <div class="col-4">
-    <h3 class="text-center font-weight-bold py-5">Value Proposition & Vision Statement</h3>
-  </div>
-  <div class="col-8">
+    <div class="row pt-4">
+      <div class="col-lg-8 col-md-6 p-3">
+        <h2 class="project-title">{{climateLens.name}}</h2>
+        <h4 class="section-header">Goal</h4>
+        <p>{{climateLens.description}}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 p-3">
+        <p><b>Role:</b> UX Designer</p>
+        <p><b>Contributions:</b> UX Design, InVision Prototype</p>
+        <p>
+          <b>Team (UCI):</b><br>
+          Brett Benner - <i>Project Manager</i><br>
+          Brooke Ly - <i>Engineer</i><br>
+          Kent Han - <i>Engineer</i><br>
+          Kenzo Makitani - <i>User Research</i><br>
+          Fanny Guan (me) - <i>UX Designer</i><br>
+          Stephanie Mondragon - <i>UX Designer</i>
+        </p>
+        <p class="mb-0"><i>[ Team ] [ Agile ]</i></p>
+      </div>
+    </div>
 
+    <div class="divider"></div>
+
+    <h3 class="section-header">Introduction</h3>
+    <p>
+      For this project, we were tasked with picking an upcoming technology and to create a
+      product with it that addressed a current social issue. Our team chose the
+      technology of <b>augmented reality</b> to address the social issue of <b>climate change</b>.
+    </p>
+
+    <h3 class="section-header">Mission Statement</h3>
+    <p>
+      Our solution will use AR simulations of climate change disasters and
+      steps on how to avoid that future specifically tailored to the user’s
+      location, to spur individuals to actively participate in the fight against
+      climate change.
+    </p>
+
+    <img class="img-fluid img-logo img-center" [src]="logoImg" alt="Climatelens Logo">
+    <h3 class="section-header">Logo</h3>
+    <p>
+      To reflect our app's goal of providing a closer look at the world around us through AR,
+      the logo was created with the idea of looking at our world through a lens.
+    </p>
+
+    <h3 class="section-header">Lean Canvas</h3>
+    <p>
+      The lean canvas acted as our scaffolding of the project, fleshing out the idea and goals
+      of the product.
+    </p>
+    <img class="img-fluid img-center img-large" [src]="leanCanvasImg" alt="Lean Canvas Image">
+
+    <div class="img-center text-center p-5">
+      <h5 class="font-weight-bold lavender-text">The Problem</h5>
+      <h4>
+        The problem is not lack of awareness anymore, but lack of
+        <b class="bigger-text">urgency</b> about climate change.
+      </h4>
+    </div>
+
+    <h3 class="section-header">Value Proposition</h3>
+    <p>
+      We defined the value our product would bring to our target audience. This helped shape
+      the features we would like out product to provide in relation to what our users would
+      want.
+    </p>
+    <img class="img-fluid img-center img-large" [src]="valuePropImg" alt="Value Proposition Image">
+    <div class="img-center text-center p-5">
+      <h5 class="font-weight-bold lavender-text">Our Solution</h5>
+      <h4>
+        To give users the <b class="bigger-text">tools</b>, <b class="bigger-text">resources</b>, and <b class="bigger-text">motivation</b> to reduce their individual
+        negative impact on the environment with a central <b class="bigger-text">information hub</b> and <b class="bigger-text">community</b>
+        for activists.
+      </h4>
+    </div>
+
+
+    <h3 class="section-header">Research</h3>
+    <h4 class="font-weight-bold text-center my-5">Competitive Analysis</h4>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="img-shadow"></div>
+        <img class="img-fluid img-center img-compana mb-3" [src]="compAnaImg1" alt="#climate Image">
+        <p class="m-0">
+          #climate
+        </p>
+        <ul>
+          <li>Social media driven application</li>
+          <li>Focused on "amplification" of messages and calls to action</li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <img class="mobile-show img-fluid img-center img-compana" [src]="compAnaImg2" alt="ClimateLens Image">
+        <div class="mobile-show img-shadow mb-3"></div>
+        <p class="m-0">
+          ClimateLens
+        </p>
+        <ul>
+          <li>Personal</li>
+          <li>Provides call to action</li>
+          <li>Augmented reality features</li>
+          <li>Centralized hub for environmentally conscious action</li>
+        </ul>
+        <img class="mobile-hide img-fluid img-center img-compana mt-3" [src]="compAnaImg2" alt="ClimateLens Image">
+        <div class="mobile-hide img-shadow"></div>
+      </div>
+      <div class="col-sm-4">
+        <div class="img-shadow"></div>
+        <img class="img-fluid img-center img-compana mb-3" [src]="compAnaImg3" alt="After Ice Image">
+        <p class="m-0">
+          After Ice
+        </p>
+        <ul>
+          <li>Augmented reality features</li>
+          <li>No call to action</li>
+          <li>Only focused on changing sea levels</li>
+        </ul>
+      </div>
+    </div>
+
+    <h4 class="font-weight-bold text-center pt-5">User Journey</h4>
+    <p>
+      The journey we envisioned for users was one where they started curious and ended with
+      motivation to take action. Our app would provide the resources to make acting on their
+      motivation as easy and accessible as possible. The type of resources would range from
+      personal tips for being more environment conscious to volunteer opportunities in their
+      community.
+    </p>
+    <img class="img-fluid img-center img-large mb-3" [src]="userJourneyImg" alt="User Journey Image">
+
+
+    <h3 class="section-header">Design</h3>
+    <h4 class="font-weight-bold text-center">Prototype</h4>
+    <p>
+      The initial digital prototypes were created in Adobe Photoshop utilizing its mobile canvas
+      sizes and art board features. The prototype featured the three main views of the application:
+      "Participate," "Map," and "My Pledges." How the basic features for the application would look
+      were included in the prototype.
+    </p>
+
+    <h5 class="font-weight-bold lavender-text">Splash Screen</h5>
+    <div class="row">
+      <div class="col-6">
+
+      </div>
+      <div class="col-6">
+
+      </div>
+    </div>
+
+    <h5 class="font-weight-bold lavender-text">Onboarding</h5>
+    <div class="row">
+      <div class="col-md-3 col-6">
+
+      </div>
+      <div class="col-md-3 col-6">
+
+      </div>
+      <div class="col-md-3 col-6">
+
+      </div>
+      <div class="col-md-3 col-6">
+
+      </div>
+    </div>
+
+    <h5 class="font-weight-bold lavender-text">Map & AR</h5>
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+    </div>
+
+    <h5 class="font-weight-bold lavender-text">Participate</h5>
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+    </div>
+
+    <h5 class="font-weight-bold lavender-text">My Pledges</h5>
+    <div class="row">
+
+    </div>
+
+    <h4 class="font-weight-bold text-center">High-Fidelity Prototype</h4>
+    <p>
+      The images made in Photoshop were then imported into InVision and made into a
+      high-fidelity prototype.
+    </p>
+
+    <div class="img-center text-center">
+      <a class="invision-link" href="https://invis.io/5TFPRNTDWN8" target="_black">
+        <img class="img-fluid link-icon" [src]="iconImg">
+        <p class="link-label">Check out the prototype on InVision.</p>
+      </a>
+    </div>
+
+    <h3 class="section-header">Implementation</h3>
   </div>
 </section>

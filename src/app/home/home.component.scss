@@ -12,7 +12,7 @@
 
   .header-img {
     max-width: 300px;
-    box-shadow: 3px 3px 1px $dark-grey;
+    box-shadow: 3px 3px 1px $grey-shadow;
 
     @media screen and (max-width: breakpoint-max(md)) {
       max-width: 85%;
@@ -22,10 +22,6 @@
       max-width: 50%;
       margin-bottom: 40px;
     }
-  }
-
-  .bigger-text {
-    font-size: 105%;
   }
 
   .uc-text {

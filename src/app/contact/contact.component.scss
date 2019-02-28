@@ -6,7 +6,6 @@
     max-width: 1000px;
   }
   a.contact-link {
-    color: rgba(0,0,0,.5);
     text-decoration: none;
 
     &:hover {
@@ -24,29 +23,3 @@
     font-weight: 600;
   }
 }
-
-/*.contacts-section-2 {
-  background-color: rgba(231, 220, 232, 0.66);
-
-  .contact-form {
-    max-width: 600px;
-    font-size: 1.5em;
-
-    textarea{
-      border: 2px solid black;
-    }
-
-    input {
-      height: calc(1em + 15px);
-      border: none;
-      border-bottom: 2px solid black;
-    }
-
-    input, textarea {
-      border-radius: 0;
-      box-shadow: none;
-      font-size: 1em;
-      background: transparent;
-    }
-  }
-}*/

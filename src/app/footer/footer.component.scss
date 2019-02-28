@@ -2,4 +2,20 @@
 
 .footer-section {
   background-color: $light-alpha-pink;
+
+  .footer-col {
+    @media screen and (max-width: breakpoint-max(sm)) {
+      text-align: center;
+      padding: 15px 0;
+    }
+  }
+
+  .footer-text {
+    font-size: small;
+    font-weight: lighter;
+  }
+
+  .copyright {
+    color: $dark-lavender;
+  }
 }
