@@ -1,8 +1,8 @@
 export class Project {
-  id: number;
   name: string;
   fullsizeimage: string;
   thumbnail: string;
+  imgDir: string;
   description: string;
   link: string;
 }

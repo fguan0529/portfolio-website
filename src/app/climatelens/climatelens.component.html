@@ -9,15 +9,18 @@
 
     <div class="row pt-4">
       <div class="col-lg-8 col-md-6 p-3">
-        <h2 class="project-title">{{climateLens.name}}</h2>
+        <h2 class="project-title mb-3">{{climateLens.name}}</h2>
         <h4 class="section-header">Goal</h4>
         <p>{{climateLens.description}}</p>
+        <h4 class="section-header">Notes</h4>
+        <p>This project and team was formed as a part of a User Interaction Software Projects course
+        at UCI undergrad.</p>
       </div>
       <div class="col-lg-4 col-md-6 p-3">
         <p><b>Role:</b> UX Designer</p>
         <p><b>Contributions:</b> UX Design, InVision Prototype</p>
         <p>
-          <b>Team (UCI):</b><br>
+          <b>Team:</b><br>
           Brett Benner - <i>Project Manager</i><br>
           Brooke Ly - <i>Engineer</i><br>
           Kent Han - <i>Engineer</i><br>
@@ -25,7 +28,7 @@
           Fanny Guan (me) - <i>UX Designer</i><br>
           Stephanie Mondragon - <i>UX Designer</i>
         </p>
-        <p class="mb-0"><i>[ Team ] [ Agile ]</i></p>
+        <p class="mb-0"><i>[ UCI ] [ Team ] [ Agile ]</i></p>
       </div>
     </div>
 
@@ -38,29 +41,35 @@
       technology of <b>augmented reality</b> to address the social issue of <b>climate change</b>.
     </p>
 
-    <h3 class="section-header">Mission Statement</h3>
-    <p>
-      Our solution will use AR simulations of climate change disasters and
-      steps on how to avoid that future specifically tailored to the user’s
-      location, to spur individuals to actively participate in the fight against
-      climate change.
-    </p>
+    <div class="img-center text-center p-5 my-5">
+      <h5 class="font-weight-bold lavender-text">Mission Statement</h5>
+      <h4>
+        Our solution will use AR simulations of climate change disasters to spur
+        <b class="bigger-text">motivation</b> in individuals to actively participate in the fight against
+        climate change and provide <b class="bigger-text">guidance</b> that is specifically
+        <b class="bigger-text">tailored</b> to the their location and lifestyle.
+      </h4>
+    </div>
 
-    <img class="img-fluid img-logo img-center" [src]="logoImg" alt="Climatelens Logo">
+    <br>
+
     <h3 class="section-header">Logo</h3>
     <p>
       To reflect our app's goal of providing a closer look at the world around us through AR,
       the logo was created with the idea of looking at our world through a lens.
     </p>
+    <img class="img-fluid img-logo img-center"
+         [src]="logoImg" alt="Climatelens Logo">
 
     <h3 class="section-header">Lean Canvas</h3>
     <p>
       The lean canvas acted as our scaffolding of the project, fleshing out the idea and goals
       of the product.
     </p>
-    <img class="img-fluid img-center img-large" [src]="leanCanvasImg" alt="Lean Canvas Image">
+    <img class="img-fluid img-center img-large"
+         [src]="leanCanvasImg" alt="Lean Canvas Image">
 
-    <div class="img-center text-center p-5">
+    <div class="img-center text-center p-5 my-5">
       <h5 class="font-weight-bold lavender-text">The Problem</h5>
       <h4>
         The problem is not lack of awareness anymore, but lack of
@@ -74,8 +83,10 @@
       the features we would like out product to provide in relation to what our users would
       want.
     </p>
-    <img class="img-fluid img-center img-large" [src]="valuePropImg" alt="Value Proposition Image">
-    <div class="img-center text-center p-5">
+    <img class="img-fluid img-center img-large"
+         [src]="valuePropImg" alt="Value Proposition Image">
+
+    <div class="img-center text-center p-5 my-5">
       <h5 class="font-weight-bold lavender-text">Our Solution</h5>
       <h4>
         To give users the <b class="bigger-text">tools</b>, <b class="bigger-text">resources</b>, and <b class="bigger-text">motivation</b> to reduce their individual
@@ -84,13 +95,15 @@
       </h4>
     </div>
 
+    <div class="divider"></div>
 
     <h3 class="section-header">Research</h3>
     <h4 class="font-weight-bold text-center my-5">Competitive Analysis</h4>
     <div class="row">
       <div class="col-sm-4">
         <div class="img-shadow"></div>
-        <img class="img-fluid img-center img-compana mb-3" [src]="compAnaImg1" alt="#climate Image">
+        <img class="img-fluid img-center img-compana mb-3"
+             [src]="compAnaImg1" alt="#climate Image">
         <p class="m-0">
           #climate
         </p>
@@ -100,7 +113,8 @@
         </ul>
       </div>
       <div class="col-sm-4">
-        <img class="mobile-show img-fluid img-center img-compana" [src]="compAnaImg2" alt="ClimateLens Image">
+        <img class="mobile-show img-fluid img-center img-compana"
+             [src]="compAnaImg2" alt="ClimateLens Image">
         <div class="mobile-show img-shadow mb-3"></div>
         <p class="m-0">
           ClimateLens
@@ -111,12 +125,14 @@
           <li>Augmented reality features</li>
           <li>Centralized hub for environmentally conscious action</li>
         </ul>
-        <img class="mobile-hide img-fluid img-center img-compana mt-3" [src]="compAnaImg2" alt="ClimateLens Image">
+        <img class="mobile-hide img-fluid img-center img-compana mt-3"
+             [src]="compAnaImg2" alt="ClimateLens Image">
         <div class="mobile-hide img-shadow"></div>
       </div>
       <div class="col-sm-4">
         <div class="img-shadow"></div>
-        <img class="img-fluid img-center img-compana mb-3" [src]="compAnaImg3" alt="After Ice Image">
+        <img class="img-fluid img-center img-compana mb-3"
+             [src]="compAnaImg3" alt="After Ice Image">
         <p class="m-0">
           After Ice
         </p>
@@ -128,16 +144,25 @@
       </div>
     </div>
 
+    <br>
+
     <h4 class="font-weight-bold text-center pt-5">User Journey</h4>
     <p>
       The journey we envisioned for users was one where they started curious and ended with
       motivation to take action. Our app would provide the resources to make acting on their
-      motivation as easy and accessible as possible. The type of resources would range from
-      personal tips for being more environment conscious to volunteer opportunities in their
-      community.
+      motivation as easy and accessible as possible.
     </p>
-    <img class="img-fluid img-center img-large mb-3" [src]="userJourneyImg" alt="User Journey Image">
+    <p>
+      The "Map" section would facilitate the
+      AR interactive educational feature. The "Participate" section would show news
+      and volunteer opportunities from local organizations. The "My Pledges" section would
+      provide tips and ideas to improve personal environmental conscious habits and a bullet
+      journal style tracking system.
+    </p>
+    <img class="img-fluid img-center img-large mb-3"
+         [src]="userJourneyImg" alt="User Journey Image">
 
+    <div class="divider"></div>
 
     <h3 class="section-header">Design</h3>
     <h4 class="font-weight-bold text-center">Prototype</h4>
@@ -148,64 +173,122 @@
       were included in the prototype.
     </p>
 
+    <br>
+
     <h5 class="font-weight-bold lavender-text">Splash Screen</h5>
+    <p>
+      The theme of the splash screen and logo was an icy palette to imitate the ice caps that are
+      one of the most recognizable entities that are directly affected by climate change that users
+      would find familiar.
+    </p>
     <div class="row">
-      <div class="col-6">
-
+      <div class="col-sm-6">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="splashImg1" alt="Splash Screen Image 1">
       </div>
-      <div class="col-6">
-
+      <div class="col-sm-6">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="splashImg2" alt="Splash Screen Image 2">
       </div>
     </div>
+
+    <br>
 
     <h5 class="font-weight-bold lavender-text">Onboarding</h5>
+    <p>
+      To introduce the application to users, we included some simple onboarding screens that
+      briefly explain the applications functionality. In this iteration, we tailored the
+      text to a user that would have been introduced to the app through social media or another
+      avenue and may already have some prior knowledge to what the app does. Future iterations
+      should also take into consideration users with no prior knowledge.
+    </p>
     <div class="row">
-      <div class="col-md-3 col-6">
-
+      <div class="col-md-3 col-sm-6">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="onboardImg1" alt="Onboarding Screen Image 1">
       </div>
-      <div class="col-md-3 col-6">
-
+      <div class="col-md-3 col-sm-6">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="onboardImg2" alt="Onboarding Screen Image 2">
       </div>
-      <div class="col-md-3 col-6">
-
+      <div class="col-md-3 col-sm-6">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="onboardImg3" alt="Onboarding Screen Image 3">
       </div>
-      <div class="col-md-3 col-6">
-
+      <div class="col-md-3 col-sm-6">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="onboardImg4" alt="Onboarding Screen Image 4">
       </div>
     </div>
+
+    <br>
 
     <h5 class="font-weight-bold lavender-text">Map & AR</h5>
+    <p>
+      Inspired by the most popular AR app on the market, Pokemon Go, we wanted users to be able to
+      explore and learn about the environment around them with fact blurbs that pop up and allowing
+      them to simulate how the environment would change with different water and temperature levels
+      as well as through time. This was the rather ambitious feature of the product concept as it
+      would need an extensive amount of environmental data to simulate the AR. Therefore, we also had
+      different AR ideas that could be explored in future iterations of the design such as making it
+      more game-like with item collecting or tree planting while keeping the factual blurbs.
+    </p>
     <div class="row">
-      <div class="col-md-4">
-
+      <div class="col-sm-4">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="mapImg" alt="Map Screen Image">
       </div>
-      <div class="col-md-4">
-
+      <div class="col-sm-4">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="arImg1" alt="AR Screen Image 1">
       </div>
-      <div class="col-md-4">
-
+      <div class="col-sm-4">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="arImg2" alt="AR Screen Image 2">
       </div>
     </div>
+
+    <br>
 
     <h5 class="font-weight-bold lavender-text">Participate</h5>
+    <p>
+      The idea behind the "Participate" section was for it to be the central hub of information and
+      resources. We wanted article and organization suggestions under "Explore" and have separate
+      sections specifically for organizations, pledges, articles and a log of all pages the user
+      "liked." A different way to do it in future iterations would be to have the four sections that
+      have giant buttons to turn into tabbed views in the "Participate" section for easier navigation
+      between the pages.
+    </p>
     <div class="row">
-      <div class="col-md-4">
-
+      <div class="col-sm-4">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="participateImg" alt="Participate Screen Image">
       </div>
-      <div class="col-md-4">
-
+      <div class="col-sm-4">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="orgImg1" alt="Organizations Screen Image 1">
       </div>
-      <div class="col-md-4">
-
+      <div class="col-sm-4">
+        <img class="img-fluid img-center my-3 img-prototype rounded"
+             [src]="orgImg2" alt="Organizations Screen Image 2">
       </div>
     </div>
+
+    <br>
 
     <h5 class="font-weight-bold lavender-text">My Pledges</h5>
-    <div class="row">
+    <p>
+      The "My Pledges" section emulates a bullet journal style habit tracker for users to keep track
+      of any new habits they wanted to adapt to be more environmentally conscious. We also included
+      a "My Badges" feature in the prototype for users to earn achievements as they use the habit
+      tracker.
+    </p>
+    <img class="img-fluid img-center my-3 img-prototype rounded"
+         [src]="pledgesImg" alt="Pledges Screen Image">
 
-    </div>
-
+    <br>
     <h4 class="font-weight-bold text-center">High-Fidelity Prototype</h4>
+    <h5 class="font-weight-bold lavender-text">InVision Prototype</h5>
     <p>
       The images made in Photoshop were then imported into InVision and made into a
       high-fidelity prototype.
@@ -218,6 +301,21 @@
       </a>
     </div>
 
-    <h3 class="section-header">Implementation</h3>
+    <div class="divider"></div>
+
+    <h3 class="section-header">The Team</h3>
+    <p>
+      Our Project Manager, Brett, helped guide the project and the vision of the product. He was also
+      the spokesperson of our team and was able to communicate the ideas behind our decisions very
+      thoroughly, which in turn helped us refine them further. Stephanie and I led the UX Design with
+      the input of the rest of the team, constantly returning with progress and for feedback. Kenzo, our
+      User Researcher ran tests with our prototypes, returning with suggestions on how the design could
+      improve based on his user testing. The engineers of the team, Brooke and Kent, would tell us how
+      we could design things differently for better implementation. They implemented the app with Swift
+      for iOS following the design of the prototype.
+    </p>
+
+    <br>
   </div>
 </section>
+

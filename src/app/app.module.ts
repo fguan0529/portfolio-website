@@ -14,6 +14,7 @@ import { ClimatelensComponent } from './climatelens/climatelens.component';
 import { InvestmentMicrositeComponent } from './investment-microsite/investment-microsite.component';
 import { PortfolioWebsiteDetailsComponent } from './portfolio-website-details/portfolio-website-details.component';
 import { CaseStudiesComponent } from './case-studies/case-studies.component';
+import { ProjectsNavbarComponent } from './projects-navbar/projects-navbar.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { CaseStudiesComponent } from './case-studies/case-studies.component';
     InvestmentMicrositeComponent,
     PortfolioWebsiteDetailsComponent,
     CaseStudiesComponent,
+    ProjectsNavbarComponent,
   ],
   imports: [
     BrowserModule,
