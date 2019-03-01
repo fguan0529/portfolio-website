@@ -25,7 +25,7 @@
     }
   }
   .project2 {
-    background: url(../../assets/img/photo.jpg) no-repeat center;
+    background: url($microsite-thumbnail) no-repeat center;
     background-size: cover;
     &:hover {
       background-size: 110%;

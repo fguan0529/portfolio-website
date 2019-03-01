@@ -1,6 +1,7 @@
 @import "../../styles.scss";
 
 .project-header-section {
+  background-image: linear-gradient(45deg, #7986aa, #95b7d9);
   .project-image {
     height: 600px;
     @media screen and (max-width: breakpoint-max(md)) {

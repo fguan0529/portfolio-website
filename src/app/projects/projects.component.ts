@@ -10,13 +10,9 @@ import { PROJECTS } from '../project-list';
 export class ProjectsComponent implements OnInit {
 
   climateLens: Project = PROJECTS[0];
-  investmentMicrosite: Project = PROJECTS[1];
+  microsite: Project = PROJECTS[1];
   portfolioWebsite: Project = PROJECTS[2];
   caseStudies: Project = PROJECTS[3];
-
-  resetView(): void{
-    window.scrollTo(0, 0);
-  }
 
   constructor() { }
 
