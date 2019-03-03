@@ -3,6 +3,5 @@ export class Project {
   fullsizeimage: string;
   thumbnail: string;
   imgDir: string;
-  description: string;
   link: string;
 }

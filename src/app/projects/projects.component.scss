@@ -3,12 +3,9 @@
 .projects-section {
   background: linear-gradient(0.65turn, #b4f2f4, #f4c3b4);
 
-  .projects-container {
-    max-width: 1920px;
-  }
 
   .project-thumbnail {
-    height: 400px;
+    height: 500px;
     @media screen and (max-width: breakpoint-max(md)) {
       height: 300px;
     }

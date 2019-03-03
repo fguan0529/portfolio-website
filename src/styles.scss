@@ -4,7 +4,7 @@
 $open-sans: 'Open Sans', sans-serif;
 $misty-rose: #f4c3b4;
 $misty-cyan: #ccf4ea;
-$vivid-cyan: #399fbc;
+$vivid-cyan: #327f99;
 $grey-shadow: #adacac;
 $dark-lavender: #4f474e;
 $lavender: #7f727d;
@@ -27,9 +27,8 @@ html {
   font-weight: 800;
 }
 
-a, a p, a div{
+a, a p, a div, a img{
   color: $vivid-cyan;
-
 }
 
 a.anchor {
