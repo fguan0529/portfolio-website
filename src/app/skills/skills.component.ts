@@ -16,7 +16,6 @@ export class SkillsComponent implements OnInit {
   skillLabel3 = 'High Fidelity Prototypes';
   skillIconSrc3 = './assets/img/prototype.png';
 
-  skillLabel4 = 'Technical';
   skillIconSrc4 = './assets/img/code.png';
 
   codingSkills: string[] = [

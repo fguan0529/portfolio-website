@@ -1,8 +1,7 @@
 @import "../../styles.scss";
 
 .projects-section {
-  background: linear-gradient(0.65turn, #b4f2f4, #f4c3b4);
-
+  background: linear-gradient(0.65turn, $gray-900, $gray-500);
 
   .project-thumbnail {
     height: 500px;
@@ -15,21 +14,24 @@
   }
 
   .project1 {
-    background: url($climatelens-thumbnail) no-repeat center;
+    background: url($climatelens-thumbnail) no-repeat center,
+      $gradient-climatelens;
     background-size: cover;
     &:hover {
       background-size: 110%;
     }
   }
   .project2 {
-    background: url($microsite-thumbnail) no-repeat center;
+    background: url($microsite-thumbnail) no-repeat center,
+      $gradient-microsite;
     background-size: cover;
     &:hover {
       background-size: 110%;
     }
   }
   .project3 {
-    background: url(../../assets/img/photo.jpg) no-repeat center;
+    background: url($portfolio-thumbnail) no-repeat center,
+      $misty-rose;
     background-size: cover;
     &:hover {
       background-size: 110%;

@@ -1,0 +1,17 @@
+@import "../../styles.scss";
+
+.project-header-section {
+  background: $misty-rose;
+  .project-image {
+    height: 600px;
+    @media screen and (max-width: breakpoint-max(md)) {
+      height: 300px;
+    }
+    background: url($portfolio-fullsize) no-repeat center;
+    background-size: cover;
+  }
+}
+
+.project-details {
+
+}
