@@ -18,7 +18,9 @@ export class InvestmentMicrositeComponent implements OnInit {
   personaImg3 = this.path + 'Roger_Institution.png';
   personaImg4 = this.path + 'David_Advisor.png';
   flowImg = this.path + 'flow.png';
-
+  prototypeImg = this.path + 'prototype.png';
+  flaskPrototypeImg = this.path + 'flask_prototype.png';
+  gitIcon = './assets/img/git.png';
 
   constructor() { }
 

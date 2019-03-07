@@ -13,30 +13,23 @@
 }
 
 .project-details {
-  .project-details-container{
-    max-width: 1000px;
-  }
-  .section-header {
+  a.git-link {
+    text-decoration: none;
     font-weight: bold;
-    color: $dark-lavender;
-  }
-  p {
-    font-size: large;
-    padding: 10px;
-  }
-  .project-title {
-    font-weight: bold;
-    color: $lavender;
-  }
 
-  .img-large {
-    padding:0 20px 20px 20px;
-    @media screen and (max-width: breakpoint-max(sm)) {
+    .link-icon {
+      width: 100px;
       padding: 5px;
     }
-  }
 
-  .img-flow {
-    max-width: 700px;
+    &:hover {
+      .link-icon, .link-label {
+        color: #333;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      cursor: pointer;
+    }
   }
 }
