@@ -10,10 +10,10 @@
     <div class="row pt-4">
       <div class="col-lg-8 col-md-6 p-3">
         <h2 class="project-title mb-3">{{portfolio.name}}</h2>
-        <h4 class="section-header">Goal</h4>
+        <h4 class="section-header">About</h4>
         <p>
           The Portfolio Website is my personal website I created to display my resume
-          and projects.
+          and projects. The website is implemented with Angular 7 and Bootstrap 4.
         </p>
       </div>
       <div class="col-lg-4 col-md-6 p-3">
@@ -24,43 +24,112 @@
 
     <div class="divider"></div>
 
-    <h3 class="section-header">Introduction</h3>
-    <p>
+    <h3 class="section-header">Design</h3>
+    <div class="row py-3">
+      <div class="col-sm-4 m-auto order-sm-last">
+        <img class="icon img-center py-sm-0 py-3" [src]="noteImg" alt="Content Plan Image">
+      </div>
+      <div class="col-sm-8">
+        <h4 class="font-weight-bold text-center">Content Plan</h4>
+        <p>
+          I started the project by laying out the content I needed the website to display. The most
+          important contents I wanted the website to display were my <b>educational background</b> and
+          <b>skillset</b> as well as direct access to my <b>paper resume</b>. Next, my <b>projects</b>
+          are to take focus.
+        </p>
+      </div>
+    </div>
 
-    </p>
+    <div class="row py-3">
+      <div class="col-sm-4 m-auto">
+        <img class="icon img-center py-sm-0 py-3" [src]="inspoImg" alt="Content Plan Image">
+      </div>
+      <div class="col-sm-8">
+        <h4 class="font-weight-bold text-center">Inspiration and Competitor Analysis</h4>
+        <p>
+          Having previously done a resume website before, I kept the old design in mind as reference to
+          use features I liked and for areas of improvement. Keeping the introduction and skills areas
+          clean and straightforward is a quality adopted from my previous resume website. For ideas on
+          highlighting my projects, I took a look at a number of other portfolio websites in the
+          industry. I came upon <a href="https://jihoonsuh.com/" target="_blank">Jihoon Suh's website</a>
+          and took inspiration from the large thumbnails for his projects as well as how the project
+          details are organized in their respective pages.
+        </p>
+      </div>
+    </div>
+
+
 
 
     <div class="divider"></div>
     <div class="text-center p-md-5 my-5">
       <h5 class="font-weight-bold lavender-text">Mission Statement</h5>
       <h4 class="text-focus-statement">
-        My Portfolio Website should communicate my personality to the visitor as well
-        as readily provide access to my resume and portfolio of projects.
+        My Portfolio Website should communicate my <b class="bigger-text">personality</b> to the
+        visitor as well as readily provide access to my <b class="bigger-text">resume</b> and
+        <b class="bigger-text">portfolio</b> of projects.
       </h4>
     </div>
     <div class="divider"></div>
 
+    <h3 class="section-header py-3">Webflow Prototype</h3>
+    <p>
+      Using Webflow, I was able to prototype the website before diving in to code it. Using Webflow's
+      interface, I roughly organized my content and planned the aesthetic of the website.
+    </p>
+    <a href="https://fannys-stupendous-project.webflow.io/" target="_blank">
+      <h4 class="text-center font-weight-bold">View prototype on Webflow.</h4>
+    </a>
 
     <div class="divider"></div>
     <div class="text-center p-md-5 my-5">
       <h5 class="font-weight-bold lavender-text">The Problem</h5>
       <h4 class="text-focus-statement">
-        Due to my lack of work experience, my resume mainly consists of projects. My paper
-        resume isn't the best medium for displaying my skills applied in my projects.
+        Due to my lack of <b class="bigger-text">work experience</b>, my resume mainly consists of
+        projects. My paper resume is not the best medium for displaying my skills applied through my
+        <b class="bigger-text">projects</b>.
       </h4>
     </div>
     <div class="divider"></div>
 
+    <h3 class="section-header py-3">Implementation</h3>
+    <p>
+      I chose to use <b>Angular</b> as an opportunity to learn something new while working on this project. I
+      was already familiar with <b>Bootstrap</b> so I utilized it as well along with <b>Sass</b>. After a few Angular tutorials, I
+      began implementation of the website. Following my Webflow prototype, I laid the homepage out
+      section by section. I also made sure all content was <b>mobile-friendly</b> every step of the way.
+    </p>
+    <a href="https://github.com/fguan0529/portfolio-website" target="_blank">
+      <h4 class="text-center font-weight-bold">View source code on GitHub.</h4>
+    </a>
 
     <div class="divider"></div>
     <div class="text-center p-md-5 my-5">
       <h5 class="font-weight-bold lavender-text">My Solution</h5>
       <h4 class="text-focus-statement">
-        A Portfolio Website gives me the platform to display my projects and simultaneously
-        allow me to apply my skills in implementing the website.
+        A portfolio website gives me the <b class="bigger-text">platform</b> to display my work and
+        simultaneously allows me to <b class="bigger-text">apply my skills</b> in implementing the website.
       </h4>
     </div>
     <div class="divider"></div>
+
+    <h3 class="section-header py-3">Finishing Touches</h3>
+    <p>
+      As the website was being filled with my content, I also slowly began to optimize the images a bit more by
+      using SVGs for the icons and using transparent background images for the project thumbnails.
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
+        <h5>Additional Changes to Make:</h5>
+        <ul>
+          <li>Provide zooming feature for large images</li>
+          <li>Secondary navigation between the project pages</li>
+          <li>Convert more images into vectors</li>
+          <li>Add non-resume content about myself</li>
+        </ul>
+      </div>
+    </div>
+
 
     <br>
   </div>

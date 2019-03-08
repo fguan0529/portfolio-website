@@ -12,6 +12,9 @@ export class PortfolioWebsiteDetailsComponent implements OnInit {
   portfolio: Project = PROJECTS[2];
   path = this.portfolio.imgDir;
 
+  noteImg = this.path + 'note.svg';
+  inspoImg = this.path + 'inspo.svg';
+
   constructor() { }
 
   ngOnInit() {

@@ -13,5 +13,10 @@
 }
 
 .project-details {
-
+  .icon {
+    max-width: 40%;
+    @media screen and (max-width: breakpoint-max(xs)) {
+      max-width: 20%;
+    }
+  }
 }
