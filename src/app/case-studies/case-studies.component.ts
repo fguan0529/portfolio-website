@@ -9,8 +9,10 @@ import {PROJECTS} from '../project-list';
 })
 export class CaseStudiesComponent implements OnInit {
 
-  caseStudies: Project = PROJECTS[2];
-  path = this.caseStudies.imgDir;
+  caseStudies: Project = PROJECTS[3];
+  pdfIcon = './assets/img/export.svg'
+  discordPaper = './assets/discord_paper.pdf';
+  skypePaper = './assets/skype_paper.pdf';
 
   constructor() { }
 

@@ -15,5 +15,24 @@
 }
 
 .project-details {
+  .pdf-link-icon {
+    max-width: 20%;
+  }
+  a.pdf-link {
+    text-decoration: none;
 
+    &:hover {
+      .pdf-link-icon, .pdf-link-label {
+        color: #333;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      cursor: pointer;
+    }
+  }
+  .pdf-link-label {
+    font-size: medium;
+    font-weight: 600;
+  }
 }
