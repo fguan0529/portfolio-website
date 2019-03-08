@@ -38,7 +38,9 @@
     }
   }
   .project4 {
-    background: url(../../assets/img/photo.jpg) no-repeat center;
+    background: url($casestudies-thumbnail) no-repeat center,
+      url($specks-svg) repeat,
+      $gradient-casestudies;
     background-size: cover;
     &:hover {
       background-size: 110%;

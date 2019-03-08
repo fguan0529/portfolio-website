@@ -8,18 +8,17 @@ import { NavbarComponent } from '../navbar/navbar.component';
   providers: [NavbarComponent]
 })
 export class ContactComponent implements OnInit {
-
   contactLinkLabel1 = 'Download My Resume';
-  contactLinkImgSrc1 = './assets/img/export.png';
+  contactLinkImgSrc1 = './assets/img/export.svg';
   formatLabel = '[ as a pdf ]';
 
   contactLinkLabel2 = 'My Github';
-  contactLinkImgSrc2 = './assets/img/git.png';
+  contactLinkImgSrc2 = './assets/img/git.svg';
   gitLabel = '[ fguan0529 ]';
 
   contactLinkLabel3 = 'Copy Email to Clipboard';
   emailLabel = '[ guan.fanny@gmail.com ]';
-  contactLinkImgSrc3 = './assets/img/gmail.png';
+  contactLinkImgSrc3 = './assets/img/gmail.svg';
 
   resumeLinkSrc = '';
 

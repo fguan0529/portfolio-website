@@ -11,6 +11,7 @@ $lavender: #7f727d;
 $light-alpha-pink: rgba(231, 220, 232, 0.66);
 $gradient-climatelens: linear-gradient(45deg, #7986aa, #95b7d9);
 $gradient-microsite: linear-gradient(45deg, #8bcbcb, #49b0d4);
+$gradient-casestudies: linear-gradient(75deg, #fdf3fb, #ccf4ea);
 
 $climatelens-thumbnail: '../../assets/img/climatelens_thumbnail.png';
 $climatelens-fullsize: '../../assets/img/climatelens_fullsize.png';
@@ -18,6 +19,9 @@ $microsite-thumbnail: '../../assets/img/microsite_thumbnail.png';
 $microsite-fullsize: '../../assets/img/microsite_fullsize.png';
 $portfolio-thumbnail: '../../assets/img/portfolio_thumbnail.png';
 $portfolio-fullsize: '../../assets/img/portfolio_fullsize.png';
+$casestudies-fullsize: '../../assets/img/casestudies_fullsize.png';
+$casestudies-thumbnail: '../../assets/img/casestudies_thumbnail.png';
+$specks-svg: '../../assets/img/specks.svg';
 
 * { font-family: $open-sans; }
 
