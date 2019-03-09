@@ -13,6 +13,10 @@ export class ClimatelensComponent implements OnInit {
   path = this.climateLens.imgDir;
 
   logoImg = this.path + 'logo.png';
+
+  leanCanvasFullSz = this.path + 'leancanvas_full.png';
+  leanCanvasThumbnail = this.path + 'leancanvas_thumb.png';
+
   leanCanvasImg = this.path + 'leancanvas.png';
   valuePropImg = this.path + 'valueprop.png';
   compAnaImg1 = this.path + 'compana_1.png';
