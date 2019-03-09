@@ -29,7 +29,7 @@ import { ProjectsNavbarComponent } from './projects-navbar/projects-navbar.compo
     InvestmentMicrositeComponent,
     PortfolioWebsiteDetailsComponent,
     CaseStudiesComponent,
-    ProjectsNavbarComponent,
+    ProjectsNavbarComponent
   ],
   imports: [
     BrowserModule,
