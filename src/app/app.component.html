@@ -1,3 +1,13 @@
 <app-navbar></app-navbar>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
+<go-top-button  [scrollDistance]="500"
+                [styles]="{
+                  'top': 'auto',
+                  'bottom': '20px',
+                  'right': '20px',
+                  'width': '50px',
+                  'height': '50px'
+                }">
+  <fa-icon [icon]="faChevronUp"></fa-icon>
+</go-top-button>
