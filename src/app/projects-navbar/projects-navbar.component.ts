@@ -10,6 +10,14 @@ export class ProjectsNavbarComponent implements OnInit {
 
   projects = PROJECTS;
 
+  scrollToTop() {
+    window.scroll(0, 0);
+    scrollOptions = {
+      behavior: 'smooth'
+    };
+    window.scrollTo(scrollOptions);
+  }
+
   constructor() { }
 
   ngOnInit() {

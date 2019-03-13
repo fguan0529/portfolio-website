@@ -15,10 +15,10 @@ export const PROJECTS: Project[] = [
     fullsizeimage: './assets/img/climatelens_thumbnail.png',
     thumbnail: './assets/img/climatelens_thumbnail.png',
     imgDir: './assets/img/portfolio/',
-    link: 'portfolio-website-project'},
+    link: '/portfolio-website-project'},
   {name: 'Case Studies',
     fullsizeimage: './assets/img/climatelens_thumbnail.png',
     thumbnail: './assets/img/climatelens_thumbnail.png',
     imgDir: './assets/img/case_studies/',
-    link: 'case-studies'},
+    link: '/case-studies'},
 ];

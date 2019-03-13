@@ -2,5 +2,9 @@
 @import "../../app/navbar/navbar.component.scss";
 
 .navbar {
-  background-color: $misty-rose;
+  background-color: $grey-shadow;
+
+  .active-link {
+    color: $misty-rose;
+  }
 }
