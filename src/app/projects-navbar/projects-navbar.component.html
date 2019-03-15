@@ -1,13 +1,13 @@
-<nav class="navbar navbar-light navbar-expand m-auto">
+<nav class="navbar navbar-light navbar-expand-md m-auto">
   <div class="container">
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item m-auto text-center">
+        <li class="nav-item m-auto text-center navbar-collapse">
           <a class="nav-link p-0" href="#projects-section">
             All Projects
           </a>
         </li>
         <li *ngFor="let proj of projects" class="nav-item m-auto text-center">
-          <a class="nav-link p-0" [routerLink]="proj.link" routerLinkActive="active-link" (click)="scrollToTop()">
+          <a class="nav-link p-0 {{isActive(proj.link)}}" [href]="proj.link">
             {{proj.name}}
           </a>
         </li>

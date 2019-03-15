@@ -10,13 +10,14 @@ export class ProjectsNavbarComponent implements OnInit {
 
   projects = PROJECTS;
 
-  scrollToTop() {
-    window.scroll(0, 0);
+  isActive(path: string) {
+    return window.location.pathname.substr(0, path.length) === path ? 'active-link' : '';/**/
   }
 
   constructor() { }
 
   ngOnInit() {
+    window.scroll(0, 0);
   }
 
 }
