@@ -17,7 +17,5 @@ export class ProjectsNavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    window.scroll(0, 0);
   }
-
 }
