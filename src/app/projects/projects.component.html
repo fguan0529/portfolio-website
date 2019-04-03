@@ -1,15 +1,16 @@
-<section class="projects-section py-5">
+<section class="projects-section py-5 projectsset"
+         ngsRevealSet [ngsInterval]="100" [ngsSelector]="'.item'">
   <h3 class="py-3 mb-3 title text-white">Projects</h3>
   <br>
 
     <div class="row m-0">
-      <div class="col-lg-6 px-0">
+      <div class="col-lg-6 px-0 item item1">
         <a href="{{climateLens.link}}">
           <span class="sr-only">{{climateLens.name}}</span>
           <div class="project-thumbnail project1"></div>
         </a>
       </div>
-      <div class="col-lg-6 px-0">
+      <div class="col-lg-6 px-0 item item2">
         <a href="{{microsite.link}}">
           <span class="sr-only">{{microsite.name}}</span>
           <div class="project-thumbnail project2"></div>
@@ -18,13 +19,13 @@
     </div>
 
     <div class="row m-0">
-      <div class="col-lg-6 px-0">
+      <div class="col-lg-6 px-0 item item3">
         <a href="{{portfolioWebsite.link}}">
           <span class="sr-only">{{portfolioWebsite.name}}</span>
           <div class="project-thumbnail project3"></div>
         </a>
       </div>
-      <div class="col-lg-6 px-0">
+      <div class="col-lg-6 px-0 item item4">
         <a href="{{caseStudies.link}}">
           <span class="sr-only">{{caseStudies.name}}</span>
           <div class="project-thumbnail project4"></div>

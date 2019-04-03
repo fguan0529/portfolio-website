@@ -1,27 +1,27 @@
 <section class="home-section">
 
-  <div class="row">
+  <div class="row homeset" ngsRevealSet [ngsInterval]="500" [ngsSelector]="'.item'">
 
-    <div class="col-lg-6 col-md-4 text-center my-auto"
-         [@fadeIn]="fadeIn">
+    <div class="col-lg-6 col-md-4 text-center my-auto item item1">
       <img class="header-img rounded-circle" [src]="profileImg" alt="Photo of my dog Mushu and me">
     </div>
 
-    <div class="col-lg-6 col-md-8 my-auto"
-         [@fadeIn]="fadeIn">
-      <h1 class="headline mb-4 font-weight-lighter">
-        👋 Hello, my name is <span class="extrabold">Fanny Guan</span>.
-      </h1>
+    <div class="col-lg-6 col-md-8 my-auto">
+      <div class="item item2">
+        <h1 class="headline mb-4 font-weight-lighter">
+          👋 Hello, my name is <span class="extrabold">Fanny Guan</span>.
+        </h1>
 
-      <h5 class="subline font-weight-normal mr-3">
-        I am a recent graduate with a Bachelors in <b class="bigger-text">Informatics</b>,
-        specializing in <b class="bigger-text">Human Computer Interaction</b> from
-        <span class="uc-text bigger-text">UC </span>
-        <span class="irvine-text bigger-text">Irvine</span> with a passion for
-        <b class="bigger-text">UX Design</b> and <b class="bigger-text">User Research</b>.
-      </h5>
+        <h5 class="subline font-weight-normal mr-3">
+          I am a recent graduate with a Bachelors in <b class="bigger-text">Informatics</b>,
+          specializing in <b class="bigger-text">Human Computer Interaction</b> from
+          <span class="uc-text bigger-text">UC </span>
+          <span class="irvine-text bigger-text">Irvine</span> with a passion for
+          <b class="bigger-text">UX Design</b> and <b class="bigger-text">User Research</b>.
+        </h5>
+      </div>
 
-      <div class="pt-4"><a class="action-button btn btn-lg btn-outline-dark" href="#skills-section"><span class="extrabold">Get to know me 👇</span></a></div>
+      <div class="pt-4 item item3"><a class="action-button btn btn-lg btn-outline-dark" href="#skills-section"><span class="extrabold">Get to know me 👇</span></a></div>
       <br>
     </div>
   </div>

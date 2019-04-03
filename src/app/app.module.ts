@@ -4,6 +4,7 @@ import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import { GoTopButtonModule } from 'ng2-go-top-button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgsRevealModule } from 'ngx-scrollreveal';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -41,6 +42,7 @@ import { ProjectsNavbarComponent } from './projects-navbar/projects-navbar.compo
     GoTopButtonModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
+    NgsRevealModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
