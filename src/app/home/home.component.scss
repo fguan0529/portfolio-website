@@ -12,7 +12,6 @@
 
   .header-img {
     max-width: 300px;
-    box-shadow: 3px 3px 1px $grey-shadow;
 
     @media screen and (max-width: breakpoint-max(md)) {
       max-width: 85%;
